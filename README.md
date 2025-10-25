@@ -39,7 +39,6 @@ Lung cancer is one of the deadliest diseases globally, often diagnosed too late.
 - **Split**: 12,000 training images, 3,000 testing images  
 - **Resolution**: Resized to (122, 122, 3) for model input  
 
-![Sample Images from LC25000 Dataset](src/images/lc25000_samples.png)
 
 ---
 
@@ -68,7 +67,7 @@ Grad-CAM highlights the regions of the image that influenced the model’s predi
 - **Training Loss**: 0.2227  
 - **Validation Loss**: 0.2325  
 
-![Accuracy and Loss Curves](images/accuracy_loss_curves.png)
+![Accuracy and Loss Curves](src/images/cls_report.png)
 
 ###  Confusion Matrix & Classification Report
 
@@ -83,8 +82,8 @@ Grad-CAM highlights the regions of the image that influenced the model’s predi
 
 Users can upload lung tissue images via a mobile interface. The app communicates with the Flask server to receive classification results and Grad-CAM visualizations instantly.
 
-![Mobile App Output](src/images/lc_ACA.png)
-![Mobile App Output](src/images/lc_Normal.png)
+![Mobile App Output](src/images/lc_ACA.jpg)
+![Mobile App Output](src/images/lc_Normal.jpg)
 
 ---
 
