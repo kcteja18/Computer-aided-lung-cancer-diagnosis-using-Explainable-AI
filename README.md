@@ -84,7 +84,7 @@ Users can upload lung tissue images via a mobile interface. The app communicates
 
 <p align="center">
   <img src="src/images/lc_ACA.jpg" alt="Adenocarcinoma Output" width="45%" />
-  <img src="src/images/lc_Normal.jpg" alt="Normal Tissue Output" width="45%" />
+  <img src="src/images/lc_Normal_.jpg" alt="Normal Tissue Output" width="45%" />
 </p>
 
 ---
