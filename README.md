@@ -39,7 +39,7 @@ Lung cancer is one of the deadliest diseases globally, often diagnosed too late.
 - **Split**: 12,000 training images, 3,000 testing images  
 - **Resolution**: Resized to (122, 122, 3) for model input  
 
-![Sample Images from LC25000 Dataset](images/lc25000_samples.png)
+![Sample Images from LC25000 Dataset](src/images/lc25000_samples.png)
 
 ---
 
@@ -47,7 +47,6 @@ Lung cancer is one of the deadliest diseases globally, often diagnosed too late.
 
 The model uses VGG16 with transfer learning. Here's a simplified architecture diagram:
 
-![VGG16 Architecture](images/vgg16_architecture.png)
 
 ---
 
@@ -55,7 +54,8 @@ The model uses VGG16 with transfer learning. Here's a simplified architecture di
 
 Grad-CAM highlights the regions of the image that influenced the model’s prediction. This helps clinicians validate the AI's decision.
 
-![Grad-CAM Heatmaps](images/gradcam_results.png)
+![Grad-CAM Heatmaps](src/images/gradcam_result_n.png)
+![Grad-CAM Heatmaps](src/images/gradcam_result_scc.png)
 
 ---
 
@@ -75,7 +75,7 @@ Grad-CAM highlights the regions of the image that influenced the model’s predi
 - High precision across all three classes  
 - Diagonal values: Normal (998), Adenocarcinoma (955), Squamous Cell (941)
 
-![Confusion Matrix and Report](images/confusion_matrix_report.png)
+![Confusion Matrix and Report](src/images/cf_matrix.png)
 
 ---
 
@@ -83,7 +83,8 @@ Grad-CAM highlights the regions of the image that influenced the model’s predi
 
 Users can upload lung tissue images via a mobile interface. The app communicates with the Flask server to receive classification results and Grad-CAM visualizations instantly.
 
-![Mobile App Output](images/mobile_app_output.png)
+![Mobile App Output](src/images/lc_ACA.png)
+![Mobile App Output](src/images/lc_Normal.png)
 
 ---
 
