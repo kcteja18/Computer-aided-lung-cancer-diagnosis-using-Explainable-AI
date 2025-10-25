@@ -82,8 +82,10 @@ Grad-CAM highlights the regions of the image that influenced the model’s predi
 
 Users can upload lung tissue images via a mobile interface. The app communicates with the Flask server to receive classification results and Grad-CAM visualizations instantly.
 
-![Mobile App Output](src/images/lc_ACA.jpg)
-![Mobile App Output](src/images/lc_Normal.jpg)
+<p align="center">
+  <img src="src/images/lc_ACA.jpg" alt="Adenocarcinoma Output" width="45%" />
+  <img src="src/images/lc_Normal.jpg" alt="Normal Tissue Output" width="45%" />
+</p>
 
 ---
 
